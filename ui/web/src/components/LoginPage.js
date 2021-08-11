@@ -37,7 +37,7 @@ export default class Insert extends Component{
             password:this.state.password,
         };
         console.log(obj);
-        axios.post("http://localhost/Trainee-Associate-Assignment/bizlogic/login.php",obj)
+        axios.post("http://localhost/Omobio-Trainee-Associate-Assignment/bizlogic/login.php",obj)
     .then(res=>{
         console.log(res);
         console.log(res.status);

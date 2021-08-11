@@ -15,7 +15,7 @@ export default function HomePage() {
     }
 
     useEffect(() => {
-        axios.get("http://localhost/Trainee-Associate-Assignment/bizlogic/userDataList.php")
+        axios.get("http://localhost/Omobio-Trainee-Associate-Assignment/bizlogic/userDataList.php")
       .then((response)=>{
           console.log(response.data);
         setData(response.data);
